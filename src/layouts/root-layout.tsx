@@ -26,7 +26,7 @@ export default function RootLayout() {
           <Outlet />
         </main>
         <footer className="border-t p-4 text-center text-xs text-muted-foreground">
-          จัดทำโดย ผู้สอน (Lecture) — ระบบลงทะเบียนเรียน ฝั่งผู้ดูแลระบบ
+          จัดทำโดย ภูพิงค์ ชมภูบาง — 680610705
         </footer>
       </SidebarInset>
     </SidebarProvider>
