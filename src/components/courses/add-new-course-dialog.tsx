@@ -277,8 +277,9 @@ export function AddNewCourseDialog() {
                 <FieldLabel htmlFor="feedback">รายละเอียด (ไม่บังคับ)</FieldLabel>
                 <Textarea
                   id="feedback"
+                  className="resize-none field-sizing-fixed"
                   placeholder="คำอธิบายรายวิชาสั้นๆ"
-                  rows={10}
+                  rows={4}
                   aria-invalid={fieldState.invalid}
                   {...field}
                 />
